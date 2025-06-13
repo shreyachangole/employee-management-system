@@ -1,12 +1,36 @@
-# React + Vite
+# 👩‍💻 Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple employee task management web app built with **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 **Login System**:
+  - Admin login with a dedicated dashboard.
+  - Employee login using individual credentials.
 
-## Expanding the ESLint configuration
+- 📋 **Admin Dashboard**:
+  - View a list of employees (5 pre-defined in local storage).
+  - Create and assign tasks to any employee.
+  - View all tasks and their statuses (Accepted, Completed, Failed).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 👨‍💼 **Employee Dashboard**:
+  - View only tasks assigned to the logged-in employee.
+  - Accept tasks, mark them as completed, or fail them.
+  - See real-time task status updates and task counts.
+
+## 🧠 How It Works
+
+1. The app starts with a login screen.
+2. Logging in as Admin allows task assignment.
+3. Employees can log in using their own credentials to view & update their tasks.
+4. All data is handled using **local storage** (no backend required).
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- Local Storage (for storing tasks and user data)
+
+
+
